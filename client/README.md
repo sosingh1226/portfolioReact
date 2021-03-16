@@ -1,4 +1,4 @@
-[Deployed Portfolio Link.](https://sosingh1226.github.io/portfolioReact/)
+[Click here to view Deployed Portfolio Link.](https://sosingh1226.github.io/portfolioReact/)
 
 # Unit 20 React Homework: React Portfolio
 
