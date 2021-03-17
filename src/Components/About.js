@@ -1,5 +1,8 @@
 import React from 'react'
 
+import ssheadshot from '../Images/ss_headshot.jpeg';
+
+
 const About = () => {
   return (
     <div>
@@ -17,7 +20,7 @@ const About = () => {
                             </div>
                             
                             <div className="col-md-12">
-                                <img className="image-responsive float-left wt-50" src="./Assets/Images/ss_headshot.jpeg" width="200" alt="placeholder headshot"/>
+                                <img className="image-responsive float-left wt-50" src={ssheadshot} width="200" alt="placeholder headshot"/>
                                 <p>Dynamic full-stack web developer with expertise in more intuitive user experience on the web. Currently, enrolled in a full stack web development course from the University of California, Berkeley with newly developed skills in JavaScript, CSS, React.js, and responsive web design.</p>
 
                                 <p>I’m seeking entry level position in this field to achieve hands on professional experience and utilize my knowledge and skills with developers of all levels. I love to work in a fast, high-growth environment that values its employees and customers. I’m a self-starter who enjoys collaborating with other engineers and solving complicated problems.</p>

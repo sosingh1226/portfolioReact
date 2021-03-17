@@ -1,5 +1,13 @@
 import React from 'react'
 
+import moodbrew from '../Images/mood_brew_shot.jpeg'
+import burger from '../Images/burger.jpeg'
+import ghostwiki from '../Images/ghostwiki.jpeg'
+import houseninja from '../Images/house-ninja-app.jpeg'
+import myteam from '../Images/myteam_shot.jpeg'
+import weathershot from '../Images/weather_shot.jpeg'
+import winetrivia from '../Images/wine_trivia_shot.jpeg'
+
 const Portfolio = () => {
   return (
         <div className="backgroundcontainer">
@@ -24,7 +32,7 @@ const Portfolio = () => {
 
                                 <div className="col-md-3">
                                     <div className="portfoliocard1">
-                                        <img src="./Assets/Images/mood_brew_shot.png" height="250" className="card-img-top"/>
+                                        <img src={moodbrew} height="250" className="card-img-top"/>
                                         <div className="card-body">
                                         <h6 className="card-title">Mood Brew</h6>
                                         <p className="card-text">A simulation that allows you to brew a special randomly generated drink & meal recipe based on a specific mood!</p>
@@ -36,7 +44,7 @@ const Portfolio = () => {
                                 
                                 <div className="col-md-3">
                                     <div className="portfoliocard1">
-                                        <img src="./Assets/Images/wine_trivia_shot.png" height="250" className="card-img-top"/>
+                                        <img src={winetrivia} height="250" className="card-img-top"/>
                                         <div className="card-body">
                                         <h6 className="card-title">Wine Trivia- Code Quiz</h6>
                                         <p className="card-text" id="description">Wine Trivia to test your knowledge about wine. Watch out for the timer that reflects your score!</p>
@@ -48,7 +56,7 @@ const Portfolio = () => {
 
                                 <div className="col-md-3">
                                     <div className="portfoliocard1">
-                                        <img src="./Assets/Images/weather_shot.png" height="250" className="card-img-top"/>
+                                        <img src={weathershot} height="250" className="card-img-top"/>
                                         <div className="card-body">
                                         <h6 className="card-title">Howz-da-Weather</h6>
                                         <p className="card-text" id="description">Input any location to know the weather in that area along with 5-day forcast. Save the search location in the history</p>
@@ -60,7 +68,7 @@ const Portfolio = () => {
 
                                 <div className="col-md-3">
                                     <div className="portfoliocard1">
-                                        <img src="./Assets/myteam_shot.png" height="250" className="card-img-top"/>
+                                        <img src={myteam} height="250" className="card-img-top"/>
                                         <div className="card-body">
                                         <h6 className="card-title">Make Your Team</h6>
                                         <p className="card-text" id="description">Back-end only Project. Input details of your team members and save it!</p>
@@ -78,7 +86,7 @@ const Portfolio = () => {
                             
                                 <div className="col-md-3">
                                     <div className="portfoliocard2">
-                                        <img src="./Assets/Images/burger.png" height="250" className="card-img-top"/>
+                                        <img src={burger} height="250" className="card-img-top"/>
                                         <div className="card-body">
                                             <h6 className="card-title">Burger Drama</h6>
                                             <p className="card-text" id="description">List all the burgers & devour it!</p>
@@ -91,7 +99,7 @@ const Portfolio = () => {
 
                                 <div className="col-md-3">
                                     <div className="portfoliocard2">
-                                        <img src="./Assets/Images/house-ninja-app.png" height="400" className="card-img-top"/>
+                                        <img src={houseninja} height="400" className="card-img-top"/>
                                         <div className="card-body">
                                         <h6 className="card-title">House Ninja Android App</h6>
                                         <p className="card-text" id="description">UX Design Project- Clickable prototype for an Android App! Add your location and view home service providers in your area. Ask for a free quote remotely and bid on the received quotes.</p>
@@ -103,7 +111,7 @@ const Portfolio = () => {
 
                                 <div className="col-md-3">
                                     <div className="portfoliocard2">
-                                        <img src="./Assets/Images/ghostwiki.png" className="card-img-top"/>
+                                        <img src={ghostwiki} className="card-img-top"/>
                                         <div className="card-body">
                                         <h6 className="card-title">Ghost Wiki App</h6>
                                         <p className="card-text" id="description">This data would be viewable on the internet and provide a source of truth based on observation and analysis from others' edits and information.This group considered quite a few topics to start with, from food, music, and travel to games, statistical analysis on world health reports, and hiring numbers. Why ghosts, you ask? We're of the opinion they're quite... cool.</p>
