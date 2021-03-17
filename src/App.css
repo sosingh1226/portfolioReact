@@ -1,0 +1,59 @@
+.backgroundcontainer  {
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701375136.jpg");
+  /* background-color: #cccccc; */
+}
+
+.btn-primary {
+  color: #FFC108;
+  background-color: #420E06;
+  border-color: #5bc2c2;
+  font-size: medium;
+}
+
+#linkbtn {
+  align-items: flex-end;
+}
+
+.btn {
+  font-size: 10px;
+}
+
+.footer{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  background-color: palegoldenrod;
+  position: sticky;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footercontact{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  background-color: palegoldenrod;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.portfoliocard1{
+  height: 30rem;
+}
+
+.portfoliocard2{
+  height: 40rem;
+}
+
+.linkbtn{
+  font-size: x-small;
+}
+
+.description{
+  font-size: small;
+}
